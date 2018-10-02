@@ -9,11 +9,11 @@
 /* Begin PBXAggregateTarget section */
 		"Convertible::ConvertiblePackageTests::ProductTarget" /* ConvertiblePackageTests */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = OBJ_111 /* Build configuration list for PBXAggregateTarget "ConvertiblePackageTests" */;
+			buildConfigurationList = OBJ_143 /* Build configuration list for PBXAggregateTarget "ConvertiblePackageTests" */;
 			buildPhases = (
 			);
 			dependencies = (
-				OBJ_114 /* PBXTargetDependency */,
+				OBJ_146 /* PBXTargetDependency */,
 			);
 			name = ConvertiblePackageTests;
 			productName = ConvertiblePackageTests;
@@ -21,57 +21,98 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		OBJ_100 /* Set+Convertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_50 /* Set+Convertible.swift */; };
-		OBJ_101 /* String+Convertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_51 /* String+Convertible.swift */; };
-		OBJ_102 /* String+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_53 /* String+Utilities.swift */; };
-		OBJ_109 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
-		OBJ_120 /* ConvertibleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_56 /* ConvertibleTests.swift */; };
-		OBJ_121 /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_57 /* XCTestManifests.swift */; };
-		OBJ_123 /* Convertible.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Convertible::Convertible::Product" /* Convertible.framework */; };
-		OBJ_67 /* NSArray+Convertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* NSArray+Convertible.swift */; };
-		OBJ_68 /* NSData+Convertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* NSData+Convertible.swift */; };
-		OBJ_69 /* NSDate+Covertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* NSDate+Covertible.swift */; };
-		OBJ_70 /* NSDictionary+Convertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* NSDictionary+Convertible.swift */; };
-		OBJ_71 /* NSNull+Convertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* NSNull+Convertible.swift */; };
-		OBJ_72 /* NSNumber+Convertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* NSNumber+Convertible.swift */; };
-		OBJ_73 /* NSObject+Convertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* NSObject+Convertible.swift */; };
-		OBJ_74 /* NSSet+Convertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* NSSet+Convertible.swift */; };
-		OBJ_75 /* NSString+Convertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* NSString+Convertible.swift */; };
-		OBJ_76 /* NSURL+Convertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* NSURL+Convertible.swift */; };
-		OBJ_77 /* Convertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* Convertible.swift */; };
-		OBJ_78 /* Initializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* Initializable.swift */; };
-		OBJ_79 /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* Keys.swift */; };
-		OBJ_80 /* Serializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_24 /* Serializable.swift */; };
-		OBJ_81 /* Updatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_25 /* Updatable.swift */; };
-		OBJ_82 /* DataConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* DataConvertible.swift */; };
-		OBJ_83 /* DataModelConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* DataModelConvertible.swift */; };
-		OBJ_84 /* ConvertibleError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* ConvertibleError.swift */; };
-		OBJ_85 /* JsonArrayConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_32 /* JsonArrayConvertible.swift */; };
-		OBJ_86 /* JsonConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_33 /* JsonConvertible.swift */; };
-		OBJ_87 /* JsonUpdatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_34 /* JsonUpdatable.swift */; };
-		OBJ_88 /* JsonValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_35 /* JsonValue.swift */; };
-		OBJ_89 /* JsonDictionaryKeyConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_36 /* JsonDictionaryKeyConvertible.swift */; };
-		OBJ_90 /* ConvertibleOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_38 /* ConvertibleOption.swift */; };
-		OBJ_91 /* ConvertibleOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_39 /* ConvertibleOptions.swift */; };
-		OBJ_92 /* RawValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_41 /* RawValue.swift */; };
-		OBJ_93 /* Array+Convertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_43 /* Array+Convertible.swift */; };
-		OBJ_94 /* Bool+Convertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_44 /* Bool+Convertible.swift */; };
-		OBJ_95 /* Dictionary+Convertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_45 /* Dictionary+Convertible.swift */; };
-		OBJ_96 /* Double+Convertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_46 /* Double+Convertible.swift */; };
-		OBJ_97 /* Float+Convertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_47 /* Float+Convertible.swift */; };
-		OBJ_98 /* Int+Convertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_48 /* Int+Convertible.swift */; };
-		OBJ_99 /* Optional+Convertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_49 /* Optional+Convertible.swift */; };
+		OBJ_100 /* NSNull+Convertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* NSNull+Convertible.swift */; };
+		OBJ_101 /* NSNumber+Convertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* NSNumber+Convertible.swift */; };
+		OBJ_102 /* NSObject+Convertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* NSObject+Convertible.swift */; };
+		OBJ_103 /* NSSet+Convertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* NSSet+Convertible.swift */; };
+		OBJ_104 /* NSString+Convertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* NSString+Convertible.swift */; };
+		OBJ_105 /* NSURL+Convertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* NSURL+Convertible.swift */; };
+		OBJ_106 /* Convertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* Convertible.swift */; };
+		OBJ_107 /* Initializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* Initializable.swift */; };
+		OBJ_108 /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* Keys.swift */; };
+		OBJ_109 /* Serializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_24 /* Serializable.swift */; };
+		OBJ_110 /* Updatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_25 /* Updatable.swift */; };
+		OBJ_111 /* DataConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* DataConvertible.swift */; };
+		OBJ_112 /* DataModelConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* DataModelConvertible.swift */; };
+		OBJ_113 /* ConvertibleError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* ConvertibleError.swift */; };
+		OBJ_114 /* JsonArrayConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_32 /* JsonArrayConvertible.swift */; };
+		OBJ_115 /* JsonConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_33 /* JsonConvertible.swift */; };
+		OBJ_116 /* JsonUpdatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_34 /* JsonUpdatable.swift */; };
+		OBJ_117 /* JsonValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_35 /* JsonValue.swift */; };
+		OBJ_118 /* JsonDictionaryKeyConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_36 /* JsonDictionaryKeyConvertible.swift */; };
+		OBJ_119 /* ConvertibleOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_38 /* ConvertibleOption.swift */; };
+		OBJ_120 /* ConvertibleOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_39 /* ConvertibleOptions.swift */; };
+		OBJ_121 /* RawValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_41 /* RawValue.swift */; };
+		OBJ_122 /* Array+Convertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_43 /* Array+Convertible.swift */; };
+		OBJ_123 /* Bool+Convertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_44 /* Bool+Convertible.swift */; };
+		OBJ_124 /* Dictionary+Convertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_45 /* Dictionary+Convertible.swift */; };
+		OBJ_125 /* Double+Convertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_46 /* Double+Convertible.swift */; };
+		OBJ_126 /* Float+Convertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_47 /* Float+Convertible.swift */; };
+		OBJ_127 /* Int+Convertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_48 /* Int+Convertible.swift */; };
+		OBJ_128 /* Optional+Convertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_49 /* Optional+Convertible.swift */; };
+		OBJ_129 /* Set+Convertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_50 /* Set+Convertible.swift */; };
+		OBJ_130 /* String+Convertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_51 /* String+Convertible.swift */; };
+		OBJ_131 /* String+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_53 /* String+Utilities.swift */; };
+		OBJ_133 /* Reflection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Reflection::Reflection::Product" /* Reflection.framework */; };
+		OBJ_141 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_152 /* ConvertibleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_56 /* ConvertibleTests.swift */; };
+		OBJ_153 /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_57 /* XCTestManifests.swift */; };
+		OBJ_155 /* Convertible.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Convertible::Convertible::Product" /* Convertible.framework */; };
+		OBJ_156 /* Reflection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Reflection::Reflection::Product" /* Reflection.framework */; };
+		OBJ_163 /* Advance.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_62 /* Advance.swift */; };
+		OBJ_164 /* Any+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_63 /* Any+Extensions.swift */; };
+		OBJ_165 /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_64 /* Array+Extensions.swift */; };
+		OBJ_166 /* Construct.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_65 /* Construct.swift */; };
+		OBJ_167 /* Get.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_66 /* Get.swift */; };
+		OBJ_168 /* Identity.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_67 /* Identity.swift */; };
+		OBJ_169 /* MemoryProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_68 /* MemoryProperties.swift */; };
+		OBJ_170 /* Metadata+Class.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_69 /* Metadata+Class.swift */; };
+		OBJ_171 /* Metadata+Kind.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_70 /* Metadata+Kind.swift */; };
+		OBJ_172 /* Metadata+Struct.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_71 /* Metadata+Struct.swift */; };
+		OBJ_173 /* Metadata+Tuple.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_72 /* Metadata+Tuple.swift */; };
+		OBJ_174 /* Metadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_73 /* Metadata.swift */; };
+		OBJ_175 /* MetadataType.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_74 /* MetadataType.swift */; };
+		OBJ_176 /* NominalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_75 /* NominalType.swift */; };
+		OBJ_177 /* NominalTypeDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_76 /* NominalTypeDescriptor.swift */; };
+		OBJ_178 /* PointerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_77 /* PointerType.swift */; };
+		OBJ_179 /* Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_78 /* Properties.swift */; };
+		OBJ_180 /* ReflectionError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_79 /* ReflectionError.swift */; };
+		OBJ_181 /* RelativePointer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_80 /* RelativePointer.swift */; };
+		OBJ_182 /* Set.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_81 /* Set.swift */; };
+		OBJ_183 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_82 /* Storage.swift */; };
+		OBJ_184 /* UnsafePointer+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_83 /* UnsafePointer+Extensions.swift */; };
+		OBJ_185 /* ValueWitnessTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_84 /* ValueWitnessTable.swift */; };
+		OBJ_186 /* getFieldAt.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_85 /* getFieldAt.swift */; };
+		OBJ_193 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_86 /* Package.swift */; };
+		OBJ_96 /* NSArray+Convertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* NSArray+Convertible.swift */; };
+		OBJ_97 /* NSData+Convertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* NSData+Convertible.swift */; };
+		OBJ_98 /* NSDate+Covertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* NSDate+Covertible.swift */; };
+		OBJ_99 /* NSDictionary+Convertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* NSDictionary+Convertible.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		E668EAA32163625200CBFBEB /* PBXContainerItemProxy */ = {
+		E63785CE2163644A002D1EA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "Reflection::Reflection";
+			remoteInfo = Reflection;
+		};
+		E63785CF2163644A002D1EA7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "Convertible::Convertible";
 			remoteInfo = Convertible;
 		};
-		E668EAA42163625400CBFBEB /* PBXContainerItemProxy */ = {
+		E63785D02163644A002D1EA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "Reflection::Reflection";
+			remoteInfo = Reflection;
+		};
+		E63785D12163644E002D1EA7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
@@ -123,21 +164,56 @@
 		OBJ_57 /* XCTestManifests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestManifests.swift; sourceTree = "<group>"; };
 		OBJ_58 /* ConvertibleTests */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ConvertibleTests; sourceTree = SOURCE_ROOT; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		OBJ_62 /* Advance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Advance.swift; sourceTree = "<group>"; };
+		OBJ_63 /* Any+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Any+Extensions.swift"; sourceTree = "<group>"; };
+		OBJ_64 /* Array+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extensions.swift"; sourceTree = "<group>"; };
+		OBJ_65 /* Construct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Construct.swift; sourceTree = "<group>"; };
+		OBJ_66 /* Get.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Get.swift; sourceTree = "<group>"; };
+		OBJ_67 /* Identity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Identity.swift; sourceTree = "<group>"; };
+		OBJ_68 /* MemoryProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryProperties.swift; sourceTree = "<group>"; };
+		OBJ_69 /* Metadata+Class.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Metadata+Class.swift"; sourceTree = "<group>"; };
+		OBJ_70 /* Metadata+Kind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Metadata+Kind.swift"; sourceTree = "<group>"; };
+		OBJ_71 /* Metadata+Struct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Metadata+Struct.swift"; sourceTree = "<group>"; };
+		OBJ_72 /* Metadata+Tuple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Metadata+Tuple.swift"; sourceTree = "<group>"; };
+		OBJ_73 /* Metadata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metadata.swift; sourceTree = "<group>"; };
+		OBJ_74 /* MetadataType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetadataType.swift; sourceTree = "<group>"; };
+		OBJ_75 /* NominalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NominalType.swift; sourceTree = "<group>"; };
+		OBJ_76 /* NominalTypeDescriptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NominalTypeDescriptor.swift; sourceTree = "<group>"; };
+		OBJ_77 /* PointerType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointerType.swift; sourceTree = "<group>"; };
+		OBJ_78 /* Properties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Properties.swift; sourceTree = "<group>"; };
+		OBJ_79 /* ReflectionError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReflectionError.swift; sourceTree = "<group>"; };
+		OBJ_80 /* RelativePointer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelativePointer.swift; sourceTree = "<group>"; };
+		OBJ_81 /* Set.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Set.swift; sourceTree = "<group>"; };
+		OBJ_82 /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		OBJ_83 /* UnsafePointer+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UnsafePointer+Extensions.swift"; sourceTree = "<group>"; };
+		OBJ_84 /* ValueWitnessTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValueWitnessTable.swift; sourceTree = "<group>"; };
+		OBJ_85 /* getFieldAt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getFieldAt.swift; sourceTree = "<group>"; };
+		OBJ_86 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/aturlewicz/extra/workspace/xcode-projects/Convertible/.build/checkouts/Reflection.git-1191989752893703918/Package.swift"; sourceTree = "<group>"; };
+		"Reflection::Reflection::Product" /* Reflection.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Reflection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		OBJ_103 /* Frameworks */ = {
+		OBJ_132 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
+				OBJ_133 /* Reflection.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_122 /* Frameworks */ = {
+		OBJ_154 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_123 /* Convertible.framework in Frameworks */,
+				OBJ_155 /* Convertible.framework in Frameworks */,
+				OBJ_156 /* Reflection.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_187 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,7 +300,8 @@
 				OBJ_7 /* Sources */,
 				OBJ_54 /* Tests */,
 				OBJ_58 /* ConvertibleTests */,
-				OBJ_59 /* Products */,
+				OBJ_59 /* Dependencies */,
+				OBJ_87 /* Products */,
 			);
 			name = "";
 			sourceTree = "<group>";
@@ -255,14 +332,54 @@
 			path = Tests/ConvertibleTests;
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_59 /* Products */ = {
+		OBJ_59 /* Dependencies */ = {
 			isa = PBXGroup;
 			children = (
-				"Convertible::ConvertibleTests::Product" /* ConvertibleTests.xctest */,
-				"Convertible::Convertible::Product" /* Convertible.framework */,
+				OBJ_60 /* Reflection 0.17.0 */,
 			);
-			name = Products;
-			sourceTree = BUILT_PRODUCTS_DIR;
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		OBJ_60 /* Reflection 0.17.0 */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_61 /* Reflection */,
+				OBJ_86 /* Package.swift */,
+			);
+			name = "Reflection 0.17.0";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_61 /* Reflection */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_62 /* Advance.swift */,
+				OBJ_63 /* Any+Extensions.swift */,
+				OBJ_64 /* Array+Extensions.swift */,
+				OBJ_65 /* Construct.swift */,
+				OBJ_66 /* Get.swift */,
+				OBJ_67 /* Identity.swift */,
+				OBJ_68 /* MemoryProperties.swift */,
+				OBJ_69 /* Metadata+Class.swift */,
+				OBJ_70 /* Metadata+Kind.swift */,
+				OBJ_71 /* Metadata+Struct.swift */,
+				OBJ_72 /* Metadata+Tuple.swift */,
+				OBJ_73 /* Metadata.swift */,
+				OBJ_74 /* MetadataType.swift */,
+				OBJ_75 /* NominalType.swift */,
+				OBJ_76 /* NominalTypeDescriptor.swift */,
+				OBJ_77 /* PointerType.swift */,
+				OBJ_78 /* Properties.swift */,
+				OBJ_79 /* ReflectionError.swift */,
+				OBJ_80 /* RelativePointer.swift */,
+				OBJ_81 /* Set.swift */,
+				OBJ_82 /* Storage.swift */,
+				OBJ_83 /* UnsafePointer+Extensions.swift */,
+				OBJ_84 /* ValueWitnessTable.swift */,
+				OBJ_85 /* getFieldAt.swift */,
+			);
+			name = Reflection;
+			path = ".build/checkouts/Reflection.git-1191989752893703918/Sources/Reflection";
+			sourceTree = SOURCE_ROOT;
 		};
 		OBJ_7 /* Sources */ = {
 			isa = PBXGroup;
@@ -290,6 +407,16 @@
 			path = Sources/Convertible;
 			sourceTree = SOURCE_ROOT;
 		};
+		OBJ_87 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				"Convertible::ConvertibleTests::Product" /* ConvertibleTests.xctest */,
+				"Convertible::Convertible::Product" /* Convertible.framework */,
+				"Reflection::Reflection::Product" /* Reflection.framework */,
+			);
+			name = Products;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		OBJ_9 /* Cocoa Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -312,14 +439,15 @@
 /* Begin PBXNativeTarget section */
 		"Convertible::Convertible" /* Convertible */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_63 /* Build configuration list for PBXNativeTarget "Convertible" */;
+			buildConfigurationList = OBJ_92 /* Build configuration list for PBXNativeTarget "Convertible" */;
 			buildPhases = (
-				OBJ_66 /* Sources */,
-				OBJ_103 /* Frameworks */,
+				OBJ_95 /* Sources */,
+				OBJ_132 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				OBJ_134 /* PBXTargetDependency */,
 			);
 			name = Convertible;
 			productName = Convertible;
@@ -328,15 +456,16 @@
 		};
 		"Convertible::ConvertibleTests" /* ConvertibleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_116 /* Build configuration list for PBXNativeTarget "ConvertibleTests" */;
+			buildConfigurationList = OBJ_148 /* Build configuration list for PBXNativeTarget "ConvertibleTests" */;
 			buildPhases = (
-				OBJ_119 /* Sources */,
-				OBJ_122 /* Frameworks */,
+				OBJ_151 /* Sources */,
+				OBJ_154 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_124 /* PBXTargetDependency */,
+				OBJ_157 /* PBXTargetDependency */,
+				OBJ_158 /* PBXTargetDependency */,
 			);
 			name = ConvertibleTests;
 			productName = ConvertibleTests;
@@ -345,9 +474,9 @@
 		};
 		"Convertible::SwiftPMPackageDescription" /* ConvertiblePackageDescription */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_105 /* Build configuration list for PBXNativeTarget "ConvertiblePackageDescription" */;
+			buildConfigurationList = OBJ_137 /* Build configuration list for PBXNativeTarget "ConvertiblePackageDescription" */;
 			buildPhases = (
-				OBJ_108 /* Sources */,
+				OBJ_140 /* Sources */,
 			);
 			buildRules = (
 			);
@@ -355,6 +484,36 @@
 			);
 			name = ConvertiblePackageDescription;
 			productName = ConvertiblePackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+		"Reflection::Reflection" /* Reflection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_159 /* Build configuration list for PBXNativeTarget "Reflection" */;
+			buildPhases = (
+				OBJ_162 /* Sources */,
+				OBJ_187 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Reflection;
+			productName = Reflection;
+			productReference = "Reflection::Reflection::Product" /* Reflection.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"Reflection::SwiftPMPackageDescription" /* ReflectionPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_189 /* Build configuration list for PBXNativeTarget "ReflectionPackageDescription" */;
+			buildPhases = (
+				OBJ_192 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReflectionPackageDescription;
+			productName = ReflectionPackageDescription;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -373,7 +532,7 @@
 				en,
 			);
 			mainGroup = OBJ_5 /*  */;
-			productRefGroup = OBJ_59 /* Products */;
+			productRefGroup = OBJ_87 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -381,88 +540,139 @@
 				"Convertible::SwiftPMPackageDescription" /* ConvertiblePackageDescription */,
 				"Convertible::ConvertiblePackageTests::ProductTarget" /* ConvertiblePackageTests */,
 				"Convertible::ConvertibleTests" /* ConvertibleTests */,
+				"Reflection::Reflection" /* Reflection */,
+				"Reflection::SwiftPMPackageDescription" /* ReflectionPackageDescription */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		OBJ_108 /* Sources */ = {
+		OBJ_140 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_109 /* Package.swift in Sources */,
+				OBJ_141 /* Package.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_119 /* Sources */ = {
+		OBJ_151 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_120 /* ConvertibleTests.swift in Sources */,
-				OBJ_121 /* XCTestManifests.swift in Sources */,
+				OBJ_152 /* ConvertibleTests.swift in Sources */,
+				OBJ_153 /* XCTestManifests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_66 /* Sources */ = {
+		OBJ_162 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_67 /* NSArray+Convertible.swift in Sources */,
-				OBJ_68 /* NSData+Convertible.swift in Sources */,
-				OBJ_69 /* NSDate+Covertible.swift in Sources */,
-				OBJ_70 /* NSDictionary+Convertible.swift in Sources */,
-				OBJ_71 /* NSNull+Convertible.swift in Sources */,
-				OBJ_72 /* NSNumber+Convertible.swift in Sources */,
-				OBJ_73 /* NSObject+Convertible.swift in Sources */,
-				OBJ_74 /* NSSet+Convertible.swift in Sources */,
-				OBJ_75 /* NSString+Convertible.swift in Sources */,
-				OBJ_76 /* NSURL+Convertible.swift in Sources */,
-				OBJ_77 /* Convertible.swift in Sources */,
-				OBJ_78 /* Initializable.swift in Sources */,
-				OBJ_79 /* Keys.swift in Sources */,
-				OBJ_80 /* Serializable.swift in Sources */,
-				OBJ_81 /* Updatable.swift in Sources */,
-				OBJ_82 /* DataConvertible.swift in Sources */,
-				OBJ_83 /* DataModelConvertible.swift in Sources */,
-				OBJ_84 /* ConvertibleError.swift in Sources */,
-				OBJ_85 /* JsonArrayConvertible.swift in Sources */,
-				OBJ_86 /* JsonConvertible.swift in Sources */,
-				OBJ_87 /* JsonUpdatable.swift in Sources */,
-				OBJ_88 /* JsonValue.swift in Sources */,
-				OBJ_89 /* JsonDictionaryKeyConvertible.swift in Sources */,
-				OBJ_90 /* ConvertibleOption.swift in Sources */,
-				OBJ_91 /* ConvertibleOptions.swift in Sources */,
-				OBJ_92 /* RawValue.swift in Sources */,
-				OBJ_93 /* Array+Convertible.swift in Sources */,
-				OBJ_94 /* Bool+Convertible.swift in Sources */,
-				OBJ_95 /* Dictionary+Convertible.swift in Sources */,
-				OBJ_96 /* Double+Convertible.swift in Sources */,
-				OBJ_97 /* Float+Convertible.swift in Sources */,
-				OBJ_98 /* Int+Convertible.swift in Sources */,
-				OBJ_99 /* Optional+Convertible.swift in Sources */,
-				OBJ_100 /* Set+Convertible.swift in Sources */,
-				OBJ_101 /* String+Convertible.swift in Sources */,
-				OBJ_102 /* String+Utilities.swift in Sources */,
+				OBJ_163 /* Advance.swift in Sources */,
+				OBJ_164 /* Any+Extensions.swift in Sources */,
+				OBJ_165 /* Array+Extensions.swift in Sources */,
+				OBJ_166 /* Construct.swift in Sources */,
+				OBJ_167 /* Get.swift in Sources */,
+				OBJ_168 /* Identity.swift in Sources */,
+				OBJ_169 /* MemoryProperties.swift in Sources */,
+				OBJ_170 /* Metadata+Class.swift in Sources */,
+				OBJ_171 /* Metadata+Kind.swift in Sources */,
+				OBJ_172 /* Metadata+Struct.swift in Sources */,
+				OBJ_173 /* Metadata+Tuple.swift in Sources */,
+				OBJ_174 /* Metadata.swift in Sources */,
+				OBJ_175 /* MetadataType.swift in Sources */,
+				OBJ_176 /* NominalType.swift in Sources */,
+				OBJ_177 /* NominalTypeDescriptor.swift in Sources */,
+				OBJ_178 /* PointerType.swift in Sources */,
+				OBJ_179 /* Properties.swift in Sources */,
+				OBJ_180 /* ReflectionError.swift in Sources */,
+				OBJ_181 /* RelativePointer.swift in Sources */,
+				OBJ_182 /* Set.swift in Sources */,
+				OBJ_183 /* Storage.swift in Sources */,
+				OBJ_184 /* UnsafePointer+Extensions.swift in Sources */,
+				OBJ_185 /* ValueWitnessTable.swift in Sources */,
+				OBJ_186 /* getFieldAt.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_192 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_193 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_96 /* NSArray+Convertible.swift in Sources */,
+				OBJ_97 /* NSData+Convertible.swift in Sources */,
+				OBJ_98 /* NSDate+Covertible.swift in Sources */,
+				OBJ_99 /* NSDictionary+Convertible.swift in Sources */,
+				OBJ_100 /* NSNull+Convertible.swift in Sources */,
+				OBJ_101 /* NSNumber+Convertible.swift in Sources */,
+				OBJ_102 /* NSObject+Convertible.swift in Sources */,
+				OBJ_103 /* NSSet+Convertible.swift in Sources */,
+				OBJ_104 /* NSString+Convertible.swift in Sources */,
+				OBJ_105 /* NSURL+Convertible.swift in Sources */,
+				OBJ_106 /* Convertible.swift in Sources */,
+				OBJ_107 /* Initializable.swift in Sources */,
+				OBJ_108 /* Keys.swift in Sources */,
+				OBJ_109 /* Serializable.swift in Sources */,
+				OBJ_110 /* Updatable.swift in Sources */,
+				OBJ_111 /* DataConvertible.swift in Sources */,
+				OBJ_112 /* DataModelConvertible.swift in Sources */,
+				OBJ_113 /* ConvertibleError.swift in Sources */,
+				OBJ_114 /* JsonArrayConvertible.swift in Sources */,
+				OBJ_115 /* JsonConvertible.swift in Sources */,
+				OBJ_116 /* JsonUpdatable.swift in Sources */,
+				OBJ_117 /* JsonValue.swift in Sources */,
+				OBJ_118 /* JsonDictionaryKeyConvertible.swift in Sources */,
+				OBJ_119 /* ConvertibleOption.swift in Sources */,
+				OBJ_120 /* ConvertibleOptions.swift in Sources */,
+				OBJ_121 /* RawValue.swift in Sources */,
+				OBJ_122 /* Array+Convertible.swift in Sources */,
+				OBJ_123 /* Bool+Convertible.swift in Sources */,
+				OBJ_124 /* Dictionary+Convertible.swift in Sources */,
+				OBJ_125 /* Double+Convertible.swift in Sources */,
+				OBJ_126 /* Float+Convertible.swift in Sources */,
+				OBJ_127 /* Int+Convertible.swift in Sources */,
+				OBJ_128 /* Optional+Convertible.swift in Sources */,
+				OBJ_129 /* Set+Convertible.swift in Sources */,
+				OBJ_130 /* String+Convertible.swift in Sources */,
+				OBJ_131 /* String+Utilities.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		OBJ_114 /* PBXTargetDependency */ = {
+		OBJ_134 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "Reflection::Reflection" /* Reflection */;
+			targetProxy = E63785CE2163644A002D1EA7 /* PBXContainerItemProxy */;
+		};
+		OBJ_146 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "Convertible::ConvertibleTests" /* ConvertibleTests */;
-			targetProxy = E668EAA42163625400CBFBEB /* PBXContainerItemProxy */;
+			targetProxy = E63785D12163644E002D1EA7 /* PBXContainerItemProxy */;
 		};
-		OBJ_124 /* PBXTargetDependency */ = {
+		OBJ_157 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "Convertible::Convertible" /* Convertible */;
-			targetProxy = E668EAA32163625200CBFBEB /* PBXContainerItemProxy */;
+			targetProxy = E63785CF2163644A002D1EA7 /* PBXContainerItemProxy */;
+		};
+		OBJ_158 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "Reflection::Reflection" /* Reflection */;
+			targetProxy = E63785D02163644A002D1EA7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		OBJ_106 /* Debug */ = {
+		OBJ_138 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				LD = /usr/bin/true;
@@ -471,7 +681,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_107 /* Release */ = {
+		OBJ_139 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				LD = /usr/bin/true;
@@ -480,19 +690,19 @@
 			};
 			name = Release;
 		};
-		OBJ_112 /* Debug */ = {
+		OBJ_144 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 			};
 			name = Debug;
 		};
-		OBJ_113 /* Release */ = {
+		OBJ_145 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 			};
 			name = Release;
 		};
-		OBJ_117 /* Debug */ = {
+		OBJ_149 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -513,7 +723,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_118 /* Release */ = {
+		OBJ_150 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -531,6 +741,72 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
 				SWIFT_VERSION = 4.2;
 				TARGET_NAME = ConvertibleTests;
+			};
+			name = Release;
+		};
+		OBJ_160 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Convertible.xcodeproj/Reflection_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Reflection;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 3.0;
+				TARGET_NAME = Reflection;
+			};
+			name = Debug;
+		};
+		OBJ_161 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Convertible.xcodeproj/Reflection_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Reflection;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 3.0;
+				TARGET_NAME = Reflection;
+			};
+			name = Release;
+		};
+		OBJ_190 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 3 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/3 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		OBJ_191 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 3 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/3 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -580,7 +856,7 @@
 			};
 			name = Release;
 		};
-		OBJ_64 /* Debug */ = {
+		OBJ_93 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -605,7 +881,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_65 /* Release */ = {
+		OBJ_94 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -633,29 +909,47 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		OBJ_105 /* Build configuration list for PBXNativeTarget "ConvertiblePackageDescription" */ = {
+		OBJ_137 /* Build configuration list for PBXNativeTarget "ConvertiblePackageDescription" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_106 /* Debug */,
-				OBJ_107 /* Release */,
+				OBJ_138 /* Debug */,
+				OBJ_139 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_111 /* Build configuration list for PBXAggregateTarget "ConvertiblePackageTests" */ = {
+		OBJ_143 /* Build configuration list for PBXAggregateTarget "ConvertiblePackageTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_112 /* Debug */,
-				OBJ_113 /* Release */,
+				OBJ_144 /* Debug */,
+				OBJ_145 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_116 /* Build configuration list for PBXNativeTarget "ConvertibleTests" */ = {
+		OBJ_148 /* Build configuration list for PBXNativeTarget "ConvertibleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_117 /* Debug */,
-				OBJ_118 /* Release */,
+				OBJ_149 /* Debug */,
+				OBJ_150 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_159 /* Build configuration list for PBXNativeTarget "Reflection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_160 /* Debug */,
+				OBJ_161 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_189 /* Build configuration list for PBXNativeTarget "ReflectionPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_190 /* Debug */,
+				OBJ_191 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -669,11 +963,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_63 /* Build configuration list for PBXNativeTarget "Convertible" */ = {
+		OBJ_92 /* Build configuration list for PBXNativeTarget "Convertible" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_64 /* Debug */,
-				OBJ_65 /* Release */,
+				OBJ_93 /* Debug */,
+				OBJ_94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

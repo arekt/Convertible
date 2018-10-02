@@ -7,22 +7,23 @@
 //
 
 import Reflection
+import Foundation
 
 public protocol Initializable : DataInitializable, JsonInitializable, KeyMapping {}
 
 extension Initializable {
-    
+
     public static func initializeWithData(_ data: Data, options: [ConvertibleOption]) throws -> Self {
         return try initializeWithJson(JsonValue.initializeWithData(data, options: options), options: options)
     }
-    
+
     public static func initializeWithJson(_ json: JsonValue, options: [ConvertibleOption]) throws -> Self {
         switch json {
         case .dictionary(let dictionary): return try initializeWithDictionary(dictionary, options: options)
         default: throw ConvertibleError.cannotCreateType(type: type(of: self), fromJson: json)
         }
     }
-    
+
     static func initializeWithDictionary(_ dictionary: [NSString: JsonValue], options: [ConvertibleOption]) throws -> Self {
         var properties = Dictionary<String, Any>()
         var missingKeys = [String]()
@@ -44,7 +45,7 @@ extension Initializable {
         }
         return try initializeWithPropertyDictionary(properties)
     }
-    
+
     static func initializeWithPropertyDictionary(_ dictionary: [String: Any]) throws -> Self {
         return try construct { field in
             if let value = dictionary[field.reducedKey] {
@@ -56,5 +57,5 @@ extension Initializable {
             }
         }
     }
-    
+
 }

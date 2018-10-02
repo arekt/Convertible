@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Reflection",
+        "repositoryURL": "https://github.com/Zewo/Reflection.git",
+        "state": {
+          "branch": null,
+          "revision": "ab41288d4951a79b72bfb66ed967a56723893dde",
+          "version": "0.17.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

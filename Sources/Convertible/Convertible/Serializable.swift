@@ -7,6 +7,7 @@
 //
 
 import Reflection
+import Foundation
 
 public protocol Serializable : DataSerializable, JsonSerializable, KeyMapping {}
 
